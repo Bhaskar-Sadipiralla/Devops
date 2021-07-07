@@ -1,0 +1,59 @@
+terraform eks cluster learning
+provision on EKS Cluster(AWS)
+1.create Ec2 ad add Admin role to ec2 - Because to communicate ECR and EKS
+
+a.Kubectl( AWS kubectl install in google search for linux)
+add kubectl in usr/local/bin/
+b.Aws Cli (It is available)
+c.Terraform (Download terraform for linux) 
+Mv terraform /usr/local/bin
+
+Yum Install git
+git Clone learn-terraform-provision-eks-cluster
+Inside the folder
+Terraform init
+terraform init upgrade
+Terraform plan 
+Terraform apply)
+
+
+mkdir .kube
+cd .kube
+vi config (Take from Terarform out paste into )
+Sudo su -
+Aws-IAM-Authencator for Linux
+mv aws-iam-authenticator /usr/local/bin/
+kubectl get nodes
+kubectl get ns
+kubectl get po -n Kube-system
+kubectl get po -n kube-system -o wide
+
+
+
+using NLB with Ngignx ingress Controller
+
+Kubectl apply -f 
+
+Service account
+NameSpace
+Cluster role
+Service type:load balancer
+
+
+kubectl get po -n ingress-nginx
+kubectl get deployment -n ingress-nginx
+kubectl get rs -n  ingress-nginx
+kubectl get po -n ingress-nginx
+
+kubectl svc -n ingress-nginx
+
+
+vi app1.yaml
+kubectl apply -f app1.yaml
+kubectl get po -n app1
+kubectl get po -n app1 -o wide
+
+kubectl get po -n app1
+kubectl 
+
+
